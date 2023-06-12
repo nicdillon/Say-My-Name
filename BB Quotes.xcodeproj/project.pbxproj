@@ -11,6 +11,14 @@
 		9E217AA92A33754D0083146D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217AA82A33754D0083146D /* ContentView.swift */; };
 		9E217AAB2A33754F0083146D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E217AAA2A33754F0083146D /* Assets.xcassets */; };
 		9E217AAE2A33754F0083146D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E217AAD2A33754F0083146D /* Preview Assets.xcassets */; };
+		9E217AB52A3375C10083146D /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E217AB42A3375C10083146D /* samplecharacter.json */; };
+		9E217AB72A3379B10083146D /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217AB62A3379B10083146D /* Quote.swift */; };
+		9E217AB92A337EBF0083146D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217AB82A337EBF0083146D /* Character.swift */; };
+		9E217ABB2A3382870083146D /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217ABA2A3382870083146D /* FetchController.swift */; };
+		9E217ABD2A33C3010083146D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217ABC2A33C3010083146D /* Constants.swift */; };
+		9E217ABF2A33C7C00083146D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217ABE2A33C7C00083146D /* ViewModel.swift */; };
+		9E217AC12A33CDD60083146D /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217AC02A33CDD60083146D /* QuoteView.swift */; };
+		9E217AC32A34F15E0083146D /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E217AC22A34F15E0083146D /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		9E217AA82A33754D0083146D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E217AAA2A33754F0083146D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E217AAD2A33754F0083146D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E217AB42A3375C10083146D /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = samplecharacter.json; path = ../../../../Downloads/BBQuotesResources/samplecharacter.json; sourceTree = "<group>"; };
+		9E217AB62A3379B10083146D /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		9E217AB82A337EBF0083146D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		9E217ABA2A3382870083146D /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		9E217ABC2A33C3010083146D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9E217ABE2A33C7C00083146D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		9E217AC02A33CDD60083146D /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		9E217AC22A34F15E0083146D /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				9E217AA62A33754D0083146D /* BB_QuotesApp.swift */,
 				9E217AA82A33754D0083146D /* ContentView.swift */,
+				9E217AC02A33CDD60083146D /* QuoteView.swift */,
+				9E217AC22A34F15E0083146D /* CharacterView.swift */,
+				9E217ABE2A33C7C00083146D /* ViewModel.swift */,
+				9E217ABA2A3382870083146D /* FetchController.swift */,
+				9E217AB62A3379B10083146D /* Quote.swift */,
+				9E217AB82A337EBF0083146D /* Character.swift */,
+				9E217ABC2A33C3010083146D /* Constants.swift */,
+				9E217AB42A3375C10083146D /* samplecharacter.json */,
 				9E217AAA2A33754F0083146D /* Assets.xcassets */,
 				9E217AAC2A33754F0083146D /* Preview Content */,
 			);
@@ -126,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E217AAE2A33754F0083146D /* Preview Assets.xcassets in Resources */,
+				9E217AB52A3375C10083146D /* samplecharacter.json in Resources */,
 				9E217AAB2A33754F0083146D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +163,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E217AA92A33754D0083146D /* ContentView.swift in Sources */,
+				9E217AB72A3379B10083146D /* Quote.swift in Sources */,
 				9E217AA72A33754D0083146D /* BB_QuotesApp.swift in Sources */,
+				9E217AC12A33CDD60083146D /* QuoteView.swift in Sources */,
+				9E217ABB2A3382870083146D /* FetchController.swift in Sources */,
+				9E217AB92A337EBF0083146D /* Character.swift in Sources */,
+				9E217AC32A34F15E0083146D /* CharacterView.swift in Sources */,
+				9E217ABD2A33C3010083146D /* Constants.swift in Sources */,
+				9E217ABF2A33C7C00083146D /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +302,7 @@
 				DEVELOPMENT_TEAM = SUZLRMCN8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +332,7 @@
 				DEVELOPMENT_TEAM = SUZLRMCN8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
